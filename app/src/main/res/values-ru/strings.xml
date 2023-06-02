@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Risk Analysis</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="main">Главный</string>
+    <string name="save">Сохранено</string>
+    <string name="info">О приложении</string>
+    <string name="downloaded">Скачано</string>
+    <string name="language">Язык</string>
+    <string name="share">Поделиться</string>
+    <string name="rate">Оцените нас</string>
+    <string name="authors">Авторы</string>
+    <string name="exit">Выход</string>
+
+
+    <string name="about_app">О приложении</string>
+    <string name="about_app_info">COVID-19 реконвалесцентларда кардиоваскуляр хавфни аниқлаш алгоритми Мобил иловаси</string>
+
+    <string name="f_i_o">Ф.И.О</string>
+
+    <string name="yes">Да:</string>
+    <string name="has">Есть:</string>
+
+    <string name="result_btn">Результаты</string>
+
+    <string name="input_fio">Введите имя и фамилию</string>
+
+</resources>
