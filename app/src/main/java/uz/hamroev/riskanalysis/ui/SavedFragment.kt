@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import uz.hamroev.riskanalysis.R
 import uz.hamroev.riskanalysis.adapters.ResultsAdapter
+import uz.hamroev.riskanalysis.cache.Cache
 import uz.hamroev.riskanalysis.database.ResultDatabase
 import uz.hamroev.riskanalysis.database.ResultEntity
 import uz.hamroev.riskanalysis.databinding.FragmentSavedBinding
@@ -45,14 +46,19 @@ class SavedFragment : Fragment() {
                     var shareMessage: String =
                         "https://play.google.com/store/apps/details?id="
                     shareMessage = "https://play.google.com/store/apps/details?id=" + activity?.packageName
-                    val name = "Med - Analysis"
+                    val name = "Risk - Analysis"
                     message = "$name\n\n" +
                             "* * * * * * *\n" +
-                            "Диагностический номер: ${list[position].id}\n" +
-                            "Пользователь: ${list[position].fio}\n" +
-                            "${list[position].countBall}\n" +
-                            "Диагноз: ${list[position].diagnos}\n" +
-                            "Время: ${list[position].date}" +
+                            "${activity?.resources!!.getString(R.string.user)}: ${list[position].fio}\n" +
+                            "${activity?.resources!!.getString(R.string.sex)}: ${list[position].sex}\n" +
+                            "${activity?.resources!!.getString(R.string.born)}: ${list[position].birth}\n" +
+                            "${activity?.resources!!.getString(R.string.address)}: ${list[position].address}\n" +
+
+                            "${activity?.resources!!.getString(R.string.risk)}: ${list[position].risktype}\n" +
+                            "${activity?.resources!!.getString(R.string.recommned)}: ${list[position].recommendation}\n" +
+                            "${list[position].algorithmtext}\n" +
+
+                            "${activity?.resources!!.getString(R.string.time)}: ${list[position].date}" +
                             "\n" +
                             "\n* * * * * * *\n" +
                             "$shareMessage"

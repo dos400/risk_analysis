@@ -8,13 +8,16 @@ class ResultEntity {
 
     @PrimaryKey(autoGenerate = true)  var id: Long? = null
 
-    var date: String? = null
     var fio: String? = null
-    var diagnos: String? = null
-    var countBall: String? = null
+    var birth: String? = null
+    var sex: String? = null
+    var address: String? = null
+    var date: String? = null
+    var risktype: String? = null
+    var recommendation: String? = null
+    var algorithmtext: String? = null
 
-    var diagnos2: String? = null
-    var diagnos3: String? = null
+
 
 
 }

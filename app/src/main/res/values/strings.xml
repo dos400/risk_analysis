@@ -14,7 +14,13 @@
     <string name="exit">Чиқиш</string>
 
     <string name="about_app">About App</string>
-    <string name="about_app_info">COVID-19 реконвалесцентларда кардиоваскуляр хавфни аниқлаш алгоритми Мобил иловаси </string>
+    <string name="about_app_info">Лойиҳа мақсади: COVID-19 реконвалесцентларда кардиоваскуляр хавфни баҳолаш учун алгоритм, дастурий маҳсулот ва мобил иловани ишлаб чиқиш.
+Лойиҳа вазифалари:
+1. COVID-19 реконвалесцентларда кардиоваскуляр хавф ривожланишининг прогностик омилларини аниқлаш
+2. COVID-19 реконвалесцентларда кардиоваскуляр хавфни эрта баҳолаш мезонларини аниқлаш
+3. COVID-19 реконвалесцентларда кардиоваскуляр хавфни баҳолаш алгоритми ва   дастурий маҳсулот ишлаб чиқиш
+4. COVID-19 реконвалесцентларда кардиоваскуляр хавфни баҳолаш учун   мобил илова яратиш
+</string>
     <string name="f_i_o">Ф.И.О</string>
 
     <string name="yes">Ҳа:</string>
@@ -22,5 +28,137 @@
 
     <string name="result_btn">Натижа</string>
     <string name="input_fio">Исм Фамиля киритинг</string>
+    <string name="old">Туғилган йили</string>
+
+    <string name="address">Манзил</string>
+    <string name="born">Туғилган йили</string>
+
+
+    <string name="man">Еркак</string>
+    <string name="woman">Аёл</string>
+    <string name="sex">Жинс</string>
+
+    <string name="user">Фойдаланувчи</string>
+    <string name="diagnoss">Диагноз</string>
+    <string name="time">Вақт</string>
+
+    <string name="input_date">Туғилган йилингизни киритинг!</string>
+    <string name="input_sex">Жинсингизни киритинг!</string>
+
+
+
+    <string name="a">A. Ковид 19 ўтказган</string>
+    <string name="a1">A1 - &gt; 1 йил</string>
+    <string name="a2">A2 - &lt; 1 йил</string>
+
+    <string name="b">В. Эмлаш (бирламчи)</string>
+    <string name="b1">В1 - ҳа</string>
+    <string name="b2">В2 - йўқ</string>
+
+    <string name="c">C. Қайта эмлаш</string>
+    <string name="c1">C1 - ҳа</string>
+    <string name="c2">C2 - йўқ</string>
+
+    <string name="d">Д. Шикоятлар</string>
+    <string name="d1">Д1 - ҳансираш</string>
+    <string name="d2">Д2 - йўтал</string>
+    <string name="d3">Д3 - чарчоқ</string>
+    <string name="d4">Д4 - хотира пасайиши</string>
+    <string name="d5">Д5 - бўғимларда оғриқ</string>
+    <string name="d6">Д6 - юрак уриб кетиши</string>
+    <string name="d7">Д7 - терлашнинг кучайиши</string>
+    <string name="d8">Д8 - таъмнинг билиш ўзгариши</string>
+
+    <string name="e">Е. Хавф омиллари</string>
+    <string name="e1">Е1 - наслийлик</string>
+    <string name="e2">Е2 - чекиш</string>
+    <string name="e3">Е3 - гиподинамия</string>
+    <string name="e4">Е4 – семизлик</string>
+    <string name="e5">Е5 -&gt;  25    - тана вазни индекси</string>
+    <string name="e6">Е6 – гиперхолестеринемия</string>
+    <string name="e7">Е7 – артериал гипертензия</string>
+
+    <string name="f">F. Коморбид ҳолатлар</string>
+    <string name="f1">F1 – гипертония касаллиги</string>
+    <string name="f2">F2 - юрак ишемик касаллиги</string>
+    <string name="f3">F3 - инсульт</string>
+    <string name="f4">F4 – миокард инфаркти</string>
+    <string name="f5">F5 – қандли диабет</string>
+    <string name="f6">F6 – сурункали буйрак касаллиги</string>
+
+    <string name="g">G. Ковид 19 дан кейин янги аниқланган касалликлар</string>
+    <string name="g1">G1 - гипертония касаллиги </string>
+    <string name="g2">G2 - юрак ишемик касаллиги</string>
+    <string name="g3">G3 - инсульт </string>
+    <string name="g4">G4 - миокард инфаркти МИ</string>
+    <string name="g5">G5 – қандли диабет </string>
+    <string name="g6">G6 - сурункали буйрак касаллиги</string>
+
+    <string name="j">J - чап қоринча отилиш фракцияси</string>
+    <string name="j1">J1 &gt; 55 </string>
+    <string name="j2">J2 &lt; 54-41 </string>
+    <string name="j3">J3 &lt; 40 </string>
+
+    <string name="k">K - ЭКГ</string>
+    <string name="k1">K1 - ритмнинг бузилиши</string>
+    <string name="k2">K2 - ўтказувчанликнинг бузилиши</string>
+
+    <string name="h">H. Кислород сатурацияси</string>
+    <string name="h1">&lt; 95%</string>
+    <string name="h2">Йўқ</string>
+
+    <string name="i">I. Лаборатория текшируви натижалари</string>
+
+    <string name="i1">I1 - фибриноген</string>
+    <string name="i1_a1">&gt; 400 мг/дл - 1 балл</string>
+    <string name="i1_a2">Йўқ</string>
+
+    <string name="i2">I2- C-реактив оқсил</string>
+    <string name="i2_a1">&gt; 6 мг/л -1 балл</string>
+    <string name="i2_a2">Йўқ</string>
+
+    <string name="i3">I3 - Д-димер</string>
+    <string name="i3_a1">&gt; 250 нг/мл - 1 балл</string>
+    <string name="i3_a2">Йўқ</string>
+
+    <string name="i4">I4 - креатинин</string>
+    <string name="i4_a1">&lt;80 мкмол/л -1 балл</string>
+    <string name="i4_a2">81-100 мкмол/л -2 балл</string>
+    <string name="i4_a3">101-120 мкмол/л -3 балл</string>
+    <string name="i4_a4">&gt;121 мкмол/л - 4 балл</string>
+
+    <string name="i5">I5 – буйраклар коптокчалар  фильтрацияси тезлиги (ҳКФТ).</string>
+    <string name="i5_a1">&gt; 90 мл/дақ/1,73 м2 -1 балл</string>
+    <string name="i5_a2">   90-60 мл/дақ/1,73 м2 - 2 балл</string>
+    <string name="i5_a3">59-45 мл / дақ / 1,73 м2 - 3 балл</string>
+    <string name="i5_a4">44-30 мл / дақ/ 1,73 м2 - 4 балл</string>
+    <string name="i5_a5">&lt; 30 мл/дақ - 5 балл</string>
+
+
+    <string name="i6">I6 - холестерин</string>
+    <string name="i6_a1">&gt; 5 ммол/л</string>
+    <string name="i6_a2">Йўқ</string>
+
+    <string name="covid_19">COVID-19 реконвалесцентларда кардиоваскуляр хавф даражаси</string>
+
+
+    <string name="algorithm1">кўрсаткичлар аниқланса, коморбид ҳолатини ҳисобга олган ҳолда  керакли тор мутахассисларга йўлланма бериш,. доимий оилавий шифокор назорати остида бўлиш,</string>
+    <string name="algorithm2">қонда  глюкоза, гликогемоглобин миқдорини текшириш, доимий оилавий шифокор назорати остида бўлиш, эндокринолог маслаҳати, кардиолог назорати.  </string>
+    <string name="algorithm3">кардиолог маслаҳати, ЭКГ ва ЭхоКГ текширувини ўтказиш. доимий оилавий шифокор назорати остида бўлиш,</string>
+    <string name="algorithm4">кардиолог маслаҳати,  коагулограмма тахлили, доимий оилавий шифокор назорати остида бўлиш</string>
+    <string name="algorithm5">кардиолог маслаҳати, липид спектрини текшириш, доимий оилавий шифокор назорати остида бўлиш</string>
+    <string name="algorithm6">нефролог маслаҳати, кардиолог маслаҳати, доимий оилавий шифокор назорати остида бўлиш </string>
+
+    <string name="recommendation1">ТAВСИЯЛАР - соғлом турмуш тарзига риоя қилиш, доимий оилавий шифокор назорати остида бўлиш.</string>
+    <string name="recommendation2">ТAВСИЯЛАР - соғлом турмуш тарзига риоя қилиш, кардиолог маслаҳати, амбулатор даволаш, доимий оилавий шифокор назорати остида бўлиш.</string>
+    <string name="recommendation3">ТAВСИЯЛАР - соғлом турмуш тарзига риоя қилиш, кардиолог маслаҳати, стационар даволанишга йўналтириш, доимий оилавий шифокор назорати остида бўлиш.</string>
+
+    <string name="risk1">паст хавф</string>
+    <string name="risk2">ўртача хавф</string>
+    <string name="risk3">юқори хавф</string>
+
+    <string name="risk">Риск</string>
+    <string name="recommned">Тавсиялар</string>
+
 
 </resources>

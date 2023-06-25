@@ -17,15 +17,150 @@
 
 
     <string name="about_app">О приложении</string>
-    <string name="about_app_info">COVID-19 реконвалесцентларда кардиоваскуляр хавфни аниқлаш алгоритми Мобил иловаси</string>
+    <string name="about_app_info">Цель проекта: разработать алгоритм, программный продукт и мобильное приложение для оценки кардиоваскулярного риска у реконвалесцентов COVID-19.
+Задачи проекта:
+1.  Выявить факторы, влияющие на развитие кардиоваскулярного риска у реконвалесцентов COVID-19
+2.  Определить критерии ранней оценки кардиоваскулярного риска  у реконвалесцентов COVID-19
+3.  Разработать алгоритм и программный продукт оценки кардиоваскулярного риска у реконвалесцентов COVID-19
+4.  Создать мобильное приложение для ранней оценки кардиоваскулярного риска у реконвалесцентов COVID-19</string>
 
     <string name="f_i_o">Ф.И.О</string>
 
     <string name="yes">Да:</string>
     <string name="has">Есть:</string>
-
     <string name="result_btn">Результаты</string>
-
     <string name="input_fio">Введите имя и фамилию</string>
+
+    <string name="address">Адрес</string>
+    <string name="born">Год рождения</string>
+
+
+    <string name="man">Мужской</string>
+    <string name="woman">Женский</string>
+
+    <string name="sex">Пол</string>
+
+    <string name="user">Пользователь</string>
+    <string name="diagnoss">Диагноз</string>
+    <string name="time">Время</string>
+
+    <string name="input_date">Введите свой год рождения!</string>
+    <string name="input_sex">Введите свой пол!</string>
+
+
+    <!--    new-->
+    <string name="old">Год рождения!</string>
+
+    <string name="a">А. Перенес заболевание   Ковид 19</string>
+    <string name="a1">А1 - &gt; 1 год</string>
+    <string name="a2">А2 - &lt; 1 год</string>
+
+    <string name="b">В. Вакцинация (первичная)</string>
+    <string name="b1">В1 - да</string>
+    <string name="b2">В2 - нет</string>
+
+    <string name="c">С. Ревакцинация</string>
+    <string name="c1">С1 - да</string>
+    <string name="c2">С2 - нет</string>
+
+    <string name="d">D. Жалобы</string>
+    <string name="d1">D1 - одышка</string>
+    <string name="d2">Д2 – кашель</string>
+    <string name="d3">D3 - усталость</string>
+    <string name="d4">D4 – снижение памяти</string>
+    <string name="d5">D5 - боли в суставах</string>
+    <string name="d6">D6 - сердцебиение</string>
+    <string name="d7">D7 - повышенное потоотделение</string>
+    <string name="d8">D8 - изменения вкуса</string>
+
+    <string name="e">E. Факторы риска</string>
+    <string name="e1">E1 - наследственность</string>
+    <string name="e2">Е2 - курение</string>
+    <string name="e3">Е3 - гиподинамия</string>
+    <string name="e4">Е4 - ожирение</string>
+    <string name="e5">E5 -> 25 индекс массы тела</string>
+    <string name="e6">Е6 – гиперхолестеринемия</string>
+    <string name="e7">Е7 – артериальная гипертензия</string>
+
+    <string name="f">F. Коморбидные состояния</string>
+    <string name="f1">F1 - гипертоническая болезнь</string>
+    <string name="f2">F2 - ишемическая болезнь сердца</string>
+    <string name="f3">F3 - инсульт</string>
+    <string name="f4">F4 - инфаркт миокарда</string>
+    <string name="f5">F5 – сахарный диабет</string>
+    <string name="f6">F6 - хроническая болезнь почек</string>
+
+    <string name="g">G. Новые заболевания, диагностированные после Ковид-19</string>
+    <string name="g1">G1 - гипертоническая болезнь</string>
+    <string name="g2">G2 - ишемическая болезнь сердца</string>
+    <string name="g3">G3 - инсульт</string>
+    <string name="g4">G4 - инфаркт миокарда</string>
+    <string name="g5">G5 – сахарный диабет</string>
+    <string name="g6">G6 - хроническая болезнь почек</string>
+
+    <string name="j">J - фракция выброса левого желудочка</string>
+    <string name="j1">J1  &gt; 50</string>
+    <string name="j2">J2 40-49</string>
+    <string name="j3">J3 &lt; 40</string>
+
+    <string name="k">К - ЭКГ</string>
+    <string name="k1">К1 - нарушение ритма</string>
+    <string name="k2">К2 - нарушение проводимости</string>
+
+    <string name="h">H. Сатурация  кислородом</string>
+    <string name="h1">&lt; 95%</string>
+    <string name="h2">Нет</string>
+
+    <string name="i">I. Результаты лабораторных  исследований</string>
+
+    <string name="i1">I1 - фибриноген</string>
+    <string name="i1_a1">&gt; 400 мг/дл - 1 балл</string>
+    <string name="i1_a2">Нет</string>
+
+    <string name="i2">I2- С-реактивный белок</string>
+    <string name="i2_a1">&gt; 6 мг/л -1 балл</string>
+    <string name="i2_a2">Нет</string>
+
+    <string name="i3">I3 D-димер</string>
+    <string name="i3_a1">&gt; 250 нг/мл - 1 балл</string>
+    <string name="i3_a2">Нет</string>
+
+    <string name="i4">I4 - креатинин</string>
+    <string name="i4_a1">&lt;80 мкмоль/л -1 балл</string>
+    <string name="i4_a2">81-100 мкмоль/л -2 балла</string>
+    <string name="i4_a3">101-120 мкмоль/л -3 балла</string>
+    <string name="i4_a4">&gt;121 мкмоль/л - 4 балла</string>
+
+    <string name="i5">I5 – буйраклар коптокчалар  фильтрацияси тезлиги (ҳКФТ).</string>
+    <string name="i5_a1">&gt; 90 мл/мин/1,73 м2 -1 балл</string>
+    <string name="i5_a2">   90-60 мл/мин/1,73 м2 - 2 балла</string>
+    <string name="i5_a3">59-45 мл/мин/1,73 м2 - 3 балла</string>
+    <string name="i5_a4">44-30 мл/мин/1,73 м2 - 4 балла</string>
+    <string name="i5_a5">&lt; 30 мл/мин/1,73 м2 - 5 баллов</string>
+
+
+    <string name="i6">I6 - холестерин</string>
+    <string name="i6_a1">&gt; 5 ммоль/л</string>
+    <string name="i6_a2">Нет</string>
+    <string name="covid_19">Степень кардиоваскулярного  риска у реконвалесцентов  COVID-19</string>
+
+    <string name="algorithm1">с учетом коморбидных состояний дать направление к необходимым узким специалистам, постоянное наблюдение семейного врача </string>
+    <string name="algorithm2">проверить уровень глюкозы в крови, уровень гликогемоглобина, консультация эндокринолога, консультация кардиолога, находиться под постоянным наблюдением семейного врача,</string>
+    <string name="algorithm3">консультация кардиолога, провести исследование обследование ЭКГ и ЭхоКГ, постоянное наблюдение семейного врача </string>
+    <string name="algorithm4">консультация кардиолога, анализ коагулограммы, постоянное наблюдение семейного врача</string>
+    <string name="algorithm5">консультация кардиолога, исследование липидного спектра, постоянное наблюдение семейного врача </string>
+    <string name="algorithm6">консультация нефролога, консультация у кардиолога, постоянное наблюдение семейного врача</string>
+
+    <string name="recommendation1">РЕКОМЕНДАЦИИ - вести здоровый образ жизни, постоянное наблюдение семейного врача.</string>
+    <string name="recommendation2">РЕКОМЕНДАЦИИ - вести здоровый образ жизни, консультация кардиолога, амбулаторное лечение, постоянное наблюдение семейного врача</string>
+    <string name="recommendation3">РЕКОМЕНДАЦИИ - вести здоровый образ жизни, консультация кардиолога, направить на стационарное лечение, постоянное наблюдение семейного врача.</string>
+
+    <string name="risk1">низкий риск</string>
+    <string name="risk2">средний риск</string>
+    <string name="risk3">высокий риск</string>
+
+    <string name="risk">Риск</string>
+    <string name="recommned">Рекомендации</string>
+
 
 </resources>

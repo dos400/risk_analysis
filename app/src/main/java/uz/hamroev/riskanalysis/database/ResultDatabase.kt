@@ -19,7 +19,7 @@ abstract class ResultDatabase : RoomDatabase() {
                 instance = Room.databaseBuilder(
                     context.applicationContext,
                     ResultDatabase::class.java,
-                    "results.db"
+                    "riskresults.db"
                 )
                     .fallbackToDestructiveMigration()
                     .allowMainThreadQueries()

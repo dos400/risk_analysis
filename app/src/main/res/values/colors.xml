@@ -16,4 +16,20 @@
     <color name="grey_blue">#EAF3FE</color>
 
 
+    <color name="grey2">#8F8F8F</color>
+
+    <color name="woman">#E91E63</color>
+    <color name="man">#03A9F4</color>
+    <color name="light_blue">#95C3F5</color>
+
+    <color name="start_purple">#858ED2</color>
+    <color name="end_purple">#8C93D4</color>
+
+    <color name="start_pink">#F2C8E9</color>
+    <color name="end_pink">#E2BCED</color>
+
+    <color name="start_blue">#97C7F7</color>
+    <color name="end_blue">#77A5F6</color>
+
+
 </resources>

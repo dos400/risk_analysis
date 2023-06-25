@@ -23,8 +23,8 @@ class ResultsAdapter(
 
             val anim = AnimationUtils.loadAnimation(context, R.anim.anim_natijalar)
             itemResultsBinding.numberId.text = resultEntity.id.toString()
-            itemResultsBinding.countAll.text = resultEntity.countBall
-            itemResultsBinding.diagnos.text = resultEntity.diagnos
+            itemResultsBinding.countAll.text = resultEntity.risktype
+            itemResultsBinding.diagnos.text = resultEntity.recommendation
             itemResultsBinding.date.text = resultEntity.date
             itemResultsBinding.fio.text = resultEntity.fio
 
